@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from "axios";
 
 // API Base URL Configuration
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'http://localhost:8081';
 
 // Enhanced Prediction API utility
 const predictionAPI = {
@@ -23,7 +23,7 @@ const predictionAPI = {
     }
 };
 
-// Complete API service with localhost:8080 endpoints
+// Complete API service with localhost:8081 endpoints
 const familyEducationAPI = {
     // Get family profile and related data
     getFamilyEducationData: async (familyProfileId) => {

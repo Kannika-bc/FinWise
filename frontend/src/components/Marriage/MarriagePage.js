@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from "axios";
 
 // API Configuration
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'http://localhost:8081';
 
 const marriagePlanAPI = {
     async getAllPlans(familyProfileId) {

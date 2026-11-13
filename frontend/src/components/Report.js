@@ -59,7 +59,7 @@ const ComprehensiveReportsDashboard = () => {
             setLoading(true);
             setError(null);
 
-            const response = await axios.get(`http://localhost:8080/api/reports/comprehensive/${userIdParam}`, {
+            const response = await axios.get(`http://localhost:8081/api/reports/comprehensive/${userIdParam}`, {
                 withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'

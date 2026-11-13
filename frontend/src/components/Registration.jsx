@@ -82,7 +82,7 @@ const Register = () => {
                 lastName: formData.lastName
             };
 
-            const response = await axios.post('http://localhost:8080/api/auth/register', registrationData);
+            const response = await axios.post('http://localhost:8081/api/auth/register', registrationData);
 
             if (response.data.success) {
                 // Show success message and redirect after delay

@@ -10,7 +10,7 @@ const AuthCallback = () => {
         const handleAuthCallback = async () => {
             try {
                 // Check user authentication status after OAuth callback
-                const res = await axios.get("http://localhost:8080/api/auth/user", {
+                const res = await axios.get("http://localhost:8081/api/auth/user", {
                     withCredentials: true
                 });
 

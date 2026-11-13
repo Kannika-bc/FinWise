@@ -94,7 +94,7 @@ To get a local copy up and running, follow these simple steps.
     cd backend
     ./mvnw spring-boot:run
     ```
-    The backend server will start on `http://localhost:8080`.
+    The backend server will start on `http://localhost:8081`.
 
 4.  **Run the Frontend (React):**
     ```sh

@@ -4,7 +4,7 @@ import DynamicNavbar from "../DynamicNavbar";
 import axios from 'axios';
 
 // API endpoint
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'http://localhost:8081';
 
 // API service with proper authentication
 const investmentAPI = {

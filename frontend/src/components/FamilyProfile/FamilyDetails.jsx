@@ -80,7 +80,7 @@ const FamilyDetails = () => {
 
         try {
             // Save family profile
-            const response = await axios.post('http://localhost:8080/api/familyProfile', familyData, {
+            const response = await axios.post('http://localhost:8081/api/familyProfile', familyData, {
                 withCredentials: true,
                 headers: {
                     'Content-Type': 'application/json'
